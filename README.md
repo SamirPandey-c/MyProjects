@@ -1,3 +1,3 @@
 # MyProjects
 
-This is a repsitory of my projects.
+This is a repository of my projects.
