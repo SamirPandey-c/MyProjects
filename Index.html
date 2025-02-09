@@ -3,28 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List</title>
+    <title>Quiz App</title>
     <link rel="stylesheet" href="Styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="todo-app">
-            <h2>To-Do List <img src="images/Icon.jpg" alt=""></h2>
-            <div class="row">
-                <input type="text" id="input-box" placeholder="Add Your Task Here">
-                <button onclick="addTask()">Add</button>
+    <div class="app">
+        <h1>Easy Quiz</h1>
+        <div class="quiz">
+            <h2 id="question">Question Goes Here</h2>
+            <div id="ans-button">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
             </div>
-            <ul id="list-container">
-                <!-- <li class="checked">Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li> -->
-            </ul>
+            <button id="next-btn">Next</button>
         </div>
     </div>
 
 
-    <script src="script.js">
-        
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
